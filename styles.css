@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: #F3A683;
+    color: #2b2b2b;
+    overflow: hidden;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    padding: 1em;
+    display: grid;
+    grid-template-rows: 500px 1fr;
+    align-items: start;
+  }
+  
+  svg {
+    transform: scale(1.8);
+  }
+  
+  #pathB, #pathS, #pathM {
+    opacity: 0;
+  }
